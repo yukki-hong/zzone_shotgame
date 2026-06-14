@@ -1,3 +1,9 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+*.import
+*.translation
+
+# 系统文件
+Thumbs.db
+.DS_Store

@@ -376,6 +376,7 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_4qnqm"]
+radius = 7.0
 
 [node name="Player" type="CharacterBody2D" unique_id=1429908549]
 script = ExtResource("1_fvtld")
@@ -393,3 +394,5 @@ frame_progress = 0.26763114
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1873574589]
 shape = SubResource("CircleShape2D_4qnqm")
+
+[node name="ShootingTimer" type="Timer" parent="." unique_id=868348172]
